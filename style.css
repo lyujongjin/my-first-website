@@ -1,0 +1,9 @@
+/* style.css 파일 내용 */
+body {
+    background-color: #f0f0f0;  /* 배경색 설정 */
+    font-family: Arial, sans-serif;  /* 글꼴 설정 */
+}
+
+h1 {
+    color: #0066cc;  /* 제목 색 설정 */
+}

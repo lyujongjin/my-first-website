@@ -1,0 +1,33 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    font-family: 'Pretendard Variable', sans-serif; /*P~없으면 기본 sans-serif로 대체*/
+    display: flex; /* body 내부 요소들을 가로로 나열~반응형 만들때 유리*/
+    gap: 20px; /*내부 요소 사이에 20px 간격을 줍니다.*/
+}
+
+p.menu::after {
+    content: '의 칼로리는 ?';
+    text-decoration: underline;
+    background-color: salmon;
+}
+
+p.calorie::before {
+    content: "바로 ";
+    text-decoration: underline;
+    background-color: skyblue;
+}
+
+p.calorie::after {
+    content: " kcal!";
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+
+li:first-child {
+    background-color: palevioletred;
+}
+
+li:last-child {
+    background-color: skyblue;
+}

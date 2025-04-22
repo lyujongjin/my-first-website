@@ -1,0 +1,40 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    font-family: 'Pretendard Variable', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.parent {
+    font-size: 32px;
+    width: 500px;
+    height: 500px;
+}
+
+.child-rem {
+    font-size: 1.5rem; /* html의 font-size 기준 : 24px (16px에 1.5배 16+8=24px)*/
+    background-color: lightgreen;
+}
+
+.child-em {
+    font-size: 1.5em; /*부모 <div>의 font-size 기준: 48px (32px에 1.5배 32+16=48px)*/
+    background-color: lightsalmon;
+}
+
+.grandpa {
+    width: 50%;
+    background-color: lightpink;
+}
+
+.dad {
+    width: 50%;
+    background-color: lightsalmon;
+}
+
+.me {
+    width: 50%;
+    background-color: lightblue;
+}

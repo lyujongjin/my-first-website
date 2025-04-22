@@ -1,0 +1,26 @@
+.bold {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.normal {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.thin {
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.normal1 {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique
+};

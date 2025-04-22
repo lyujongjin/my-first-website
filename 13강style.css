@@ -1,0 +1,30 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    font-family: 'Pretendard Variable', sans-serif;
+}
+
+
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.keyword {
+    background-color: coral;
+}
+
+.hex {
+    background-color: #1f95ff;
+}
+
+.rgba {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.sample {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F109%2F2023%2F11%2F20%2F0004970444_001_20231120184305867.jpg&type=sc960_832');
+    width: 500px;
+    height: 500px;
+}

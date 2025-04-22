@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>box-sizing 비교</title>
+    <style>
+    .wrapper {
+    display: flex; /*안의 요소들을 가로로 나열하게 함 (기본 방향: row)*/
+    gap: 40px; /*자식 요소(박스) 사이 간격을 40px로 띄움*/
+    padding: 40px; /*wrapper의 안쪽 여백. 가장자리에서 안쪽 박스들까지 거리 40px*/
+    font-family: sans-serif; /*안에 있는 텍스트들에 기본 고딕체(sans-serif) 적용*/
+    }
+
+    .box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid blue;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .content-box {
+    box-sizing: content-box;
+    }
+
+    .border-box {
+    box-sizing: border-box;
+    }
+
+    .label {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">box-sizing 비교</h1>
+    <div class="wrapper">
+    <div>
+        <div class="box content-box">content-box</div> <!--두 개 클래스 동시 적용-->
+        <div class="label">실제 크기 커짐</div>
+    </div>
+    <div>
+        <div class="box border-box">border-box</div>
+        <div class="label">실제 크기 고정</div>
+    </div>
+    </div>
+</body>
+</html>

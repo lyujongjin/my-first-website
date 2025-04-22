@@ -1,0 +1,56 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+    font-family: 'Pretendard Variable', sans-serif; /*P~없으면 기본 sans-serif로 대체*/
+    display: flex; /* body 내부 요소들을 가로로 나열~반응형 만들때 유리*/
+    gap: 20px; /*내부 요소 사이에 20px 간격을 줍니다.*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block; /*요소가 줄 바꿈 없이 가로로 나열될 수 있도록 함*/
+}
+
+.container {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.box {
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+.radius {
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.name {
+    background-color: rgb(255, 255, 255);
+    @font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2')
+    format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(49, 31, 31);
+    text-align: center;
+    padding: 40px;
+    margin: 30px 100px;
+    border: 10px solid rgb(254, 240, 223);
+    border-radius: 100px;
+}
